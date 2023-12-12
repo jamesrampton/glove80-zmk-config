@@ -179,11 +179,6 @@
 #endif
 };
 
-/* Custom Defined Behaviors */
-/ {
-    
-};
-
 / {
     keymap {
         compatible = "zmk,keymap";
