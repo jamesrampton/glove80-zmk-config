@@ -72,7 +72,7 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         // tap: paren | shift + tap: angle bracket
-        lpar_morph: dot_morph {
+        lpar_morph: lpar_morph {
             compatible = "zmk,behavior-mod-morph";
             label = "MOD_MORPH_PAREN_L";
             #binding-cells = <0>;
@@ -80,7 +80,7 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         // tap: paren | shift + tap: angle bracket
-        rpar_morph: dot_morph {
+        rpar_morph: rpar_morph {
             compatible = "zmk,behavior-mod-morph";
             label = "MOD_MORPH_PAREN_R";
             #binding-cells = <0>;
