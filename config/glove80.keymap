@@ -217,7 +217,7 @@
                 &none       &kp Q         &kp Y         &kp O        &kp U       &kp X                                                                               &kp G        &kp C     &kp M     &kp N      &kp Z   &kp HOME
               &kp TAB       &kp H         &kp I         &kp E        &kp A    &kp FSLH                                                                               &kp D        &kp S     &kp T     &kp R      &kp B    &kp END
           &kp LS(TAB)       &kp J  &comma_morph    &dot_morph        &kp K     &kp SQT   &lower  &sk LGUI  &caps_word  &kp ESC  &sk LCTRL             &skq LSHFT     &kp W        &kp F     &kp L     &kp P      &kp V  &kp PG_UP
- &magic LAYER_Magic 0       &none      &kp BSLH     &kp EQUAL    &kp MINUS              &kp RET  &sk LALT   &kp LC(C)  &kp DEL   &kp BSPC  &rpi LC(LS(LALT)) SPC               &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT  &kp PG_DN
+ &magic LAYER_Magic 0       &none      &kp BSLH     &kp EQUAL    &kp MINUS              &kp RET  &sk LALT   &kp LC(C)  &kp DEL   &kp BSPC  &rpi LC(LS(LALT)) SPC               &kp DOWN    &kp UP  &kp LEFT  &kp RIGHT  &kp PG_DN
             >;
         };
 
