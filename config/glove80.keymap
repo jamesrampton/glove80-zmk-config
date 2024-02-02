@@ -130,7 +130,7 @@
                   <&bt BT_SEL 3>;
         };
         thin_arrow: thin_arrow {
-            label = "THIN_ARROW"
+            label = "THIN_ARROW";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
@@ -138,7 +138,7 @@
             bindings = <&kp MINUS &kp GT>;
         };
         fat_arrow: fat_arrow {
-            label = "FAT_ARROW"
+            label = "FAT_ARROW";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
