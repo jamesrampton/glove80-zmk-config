@@ -155,12 +155,12 @@
 
         layer_Base {
             bindings = <
-                &none    &kp C_PP  &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE                                                                                   &kp F14   &kp F15     &none      &none      &none
-                &none       &none         &none      &kp LBKT  &lpar_morph     &none                                                              &none  &rpar_morph  &kp RBKT     &none      &none      &none
-            &kp GRAVE       &kp Q         &kp Y         &kp O        &kp U     &kp X                                                              &kp G        &kp C     &kp M     &kp N      &kp Z   &kp HOME
-              &kp TAB       &kp H         &kp I         &kp E        &kp A  &kp FSLH                                                              &kp D        &kp S     &kp T     &kp R      &kp B    &kp END
-          &kp LS(TAB)       &kp J  &comma_morph    &dot_morph        &kp K   &kp SQT  &lower  &kp LGUI   &kp LCTL  &kp ESC   &kp DEL  &skq LSHFT  &kp W        &kp F     &kp L     &kp P      &kp V  &kp PG_UP
- &magic LAYER_Magic 0  &kp RA(N3)      &kp BSLH     &kp EQUAL    &kp MINUS             &none  &kp LALT  &kp LSHFT  &kp RET  &kp BSPC     &kp SPC            &kp DOWN    &kp UP  &kp LEFT  &kp RIGHT  &kp PG_DN
+                &none    &kp C_PP  &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE                                                                                          &kp F14   &kp F15     &none      &none      &none
+                &none       &none         &none      &kp LBKT  &lpar_morph     &none                                                                     &none  &rpar_morph  &kp RBKT     &none      &none      &none
+            &kp GRAVE       &kp Q         &kp Y         &kp O        &kp U     &kp X                                                                     &kp G        &kp C     &kp M     &kp N      &kp Z   &kp HOME
+              &kp TAB       &kp H         &kp I         &kp E        &kp A  &kp FSLH                                                                     &kp D        &kp S     &kp T     &kp R      &kp B    &kp END
+          &kp LS(TAB)       &kp J  &comma_morph    &dot_morph        &kp K   &kp SQT  &lower  &kp LGUI          &kp LCTL  &kp ESC   &kp DEL  &skq LSHFT  &kp W        &kp F     &kp L     &kp P      &kp V  &kp PG_UP
+ &magic LAYER_Magic 0  &kp RA(N3)      &kp BSLH     &kp EQUAL    &kp MINUS             &none  &kp LALT  &kp LC(LS(LALT))  &kp RET  &kp BSPC     &kp SPC            &kp DOWN    &kp UP  &kp LEFT  &kp RIGHT  &kp PG_DN
             >;
         };
 
