@@ -159,8 +159,8 @@
                 &none       &none         &none      &kp LBKT  &lpar_morph     &none                                                                      &none  &rpar_morph  &kp RBKT     &none      &none      &none
             &kp GRAVE       &kp Q         &kp Y         &kp O        &kp U     &kp X                                                                      &kp G        &kp C     &kp M     &kp N      &kp Z   &kp HOME
               &kp TAB       &kp H         &kp I         &kp E        &kp A  &kp FSLH                                                                      &kp D        &kp S     &kp T     &kp R      &kp B    &kp END
-          &kp LS(TAB)       &kp J  &comma_morph    &dot_morph        &kp K   &kp SQT   &lower  &kp LGUI  &kp LC(LS(LALT))  &kp ESC     &none  &skq LSHFT  &kp W        &kp F     &kp L     &kp P      &kp V  &kp PG_UP
- &magic LAYER_Magic 0  &kp RA(N3)      &kp BSLH     &kp EQUAL    &kp MINUS            &kp RET  &kp LALT          &kp LCTL  &kp DEL  &kp BSPC     &kp SPC            &kp DOWN    &kp UP  &kp LEFT  &kp RIGHT  &kp PG_DN
+          &kp LS(TAB)       &kp J  &comma_morph    &dot_morph        &kp K   &kp SQT   &lower  &kp LGUI  &kp LC(LS(LALT))  &kp ESC  &kp LCTL  &skq LSHFT  &kp W        &kp F     &kp L     &kp P      &kp V  &kp PG_UP
+ &magic LAYER_Magic 0  &kp RA(N3)      &kp BSLH     &kp EQUAL    &kp MINUS            &kp RET  &kp LALT             &none  &kp DEL  &kp BSPC     &kp SPC            &kp DOWN    &kp UP  &kp LEFT  &kp RIGHT  &kp PG_DN
             >;
         };
 
