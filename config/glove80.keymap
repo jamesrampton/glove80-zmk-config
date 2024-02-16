@@ -129,16 +129,25 @@
                 = <&out OUT_BLE>,
                   <&bt BT_SEL 3>;
         };
-        thin_arrow: thin_arrow {
-            label = "THIN_ARROW";
+        /* TODO: make fat arrows the shifted version of thin arrows */
+        thin_farrow: thin_farrow {
+            label = "THIN_FARROW";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <40>;
             bindings = <&kp MINUS &kp GT>;
         };
-        fat_arrow: fat_arrow {
-            label = "FAT_ARROW";
+        thin_barrow: thin_barrow {
+            label = "THIN_BARROW";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <40>;
+            bindings = <&kp LT &kp MINUS >;
+        };
+        fat_farrow: fat_farrow {
+            label = "FAT_FARROW";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
@@ -166,12 +175,12 @@
 
         layer_Lower {
             bindings = <
-               &kp F1    &kp F2    &kp F3            &kp F4             &kp F5                                                                                &kp F6     &kp F7      &kp F8           &kp F9       &kp F10
-               &trans     &none     &none             &none              &none        &none                                                         &none      &none      &none       &none            &none         &none
-               &trans     &none     &none      &kp LG(LBKT)       &kp LG(RBKT)        &none                                                         &none     &kp N7     &kp N8      &kp N9            &none         &none
-               &trans     &none     &none  &kp LS(LG(LBKT))   &kp LS(LG(RBKT))  &thin_arrow                                                         &none     &kp N4     &kp N5      &kp N6     &kp KP_SLASH  &kp KP_MINUS
-               &trans  &kp LBKT  &kp RBKT       &lpar_morph        &rpar_morph   &fat_arrow  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_EQUAL     &kp N1     &kp N2      &kp N3  &kp KP_MULTIPLY   &kp KP_PLUS
- &magic LAYER_Magic 0  &kp LCTL  &kp LALT          &kp LGUI         &kp LSHFT                &trans  &trans  &trans  &trans  &trans  &trans                &kp COMMA  &kp KP_N0  &kp KP_DOT          &kp RET    &kp KP_NUM
+               &kp F1    &kp F2    &kp F3    &kp F4     &kp F5                                                                                                     &kp F6     &kp F7     &kp F8            &kp F9       &kp F10
+               &trans     &none     &none     &none      &none         &none                                                                             &none      &none      &none      &none             &none         &none
+               &trans     &none     &none     &none      &none  &thin_barrow                                                                             &none     &kp N7     &kp N8     &kp N9             &none         &none
+               &trans    &kp LT    &kp GT  &kp LBRC   &kp RBRC  &thin_farrow                                                                             &none     &kp N4     &kp N5     &kp N6      &kp KP_SLASH  &kp KP_MINUS
+               &trans  &kp LBKT  &kp RBKT  &kp LPAR   &kp RPAR   &fat_farrow  &trans  &trans  &trans  &trans  &kp LS(LG(LBKT))  &kp LS(LG(RBKT))  &kp KP_EQUAL     &kp N1     &kp N2     &kp N3   &kp KP_MULTIPLY   &kp KP_PLUS
+ &magic LAYER_Magic 0  &kp LCTL  &kp LALT  &kp LGUI  &kp LSHFT                &trans  &trans  &trans  &trans      &kp LG(LBKT)      &kp LG(RBKT)                &kp COMMA  &kp KP_N0  &kp KP_DOT          &kp RET    &kp KP_NUM
             >;
         };
 
