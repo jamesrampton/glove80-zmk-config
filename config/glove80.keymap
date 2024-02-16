@@ -166,12 +166,12 @@
 
         layer_Lower {
             bindings = <
-               &kp F1    &kp F2    &kp F3            &kp F4             &kp F5                                                                                    &kp F6        &kp F7      &kp F8   &kp F9  &kp F10
-               &trans     &none     &none             &none              &none        &none                                                     &kp KP_SLASH  &kp KP_NUM  &kp KP_EQUAL       &none    &none   &trans
-               &trans     &none     &none      &kp LG(LBKT)       &kp LG(RBKT)        &none                                                  &kp KP_MULTIPLY      &kp N7        &kp N8      &kp N9    &none   &trans
-               &trans     &none     &none  &kp LS(LG(LBKT))   &kp LS(LG(RBKT))  &thin_arrow                                                     &kp KP_MINUS      &kp N4        &kp N5      &kp N6    &none   &trans
-               &trans  &kp LBKT  &kp RBKT       &lpar_morph        &rpar_morph   &fat_arrow  &trans  &trans  &trans  &trans  &trans  &trans      &kp KP_PLUS      &kp N1        &kp N2      &kp N3    &none   &trans
- &magic LAYER_Magic 0  &kp LCTL  &kp LALT          &kp LGUI         &kp LSHFT                &trans  &trans  &trans  &trans  &trans  &trans                    &kp COMMA     &kp KP_N0  &kp KP_DOT  &kp RET   &trans
+               &kp F1    &kp F2    &kp F3            &kp F4             &kp F5                                                                                &kp F6     &kp F7      &kp F8           &kp F9       &kp F10
+               &trans     &none     &none             &none              &none        &none                                                         &none      &none      &none       &none            &none         &none
+               &trans     &none     &none      &kp LG(LBKT)       &kp LG(RBKT)        &none                                                         &none     &kp N7     &kp N8      &kp N9            &none         &none
+               &trans     &none     &none  &kp LS(LG(LBKT))   &kp LS(LG(RBKT))  &thin_arrow                                                         &none     &kp N4     &kp N5      &kp N6     &kp KP_SLASH  &kp KP_MINUS
+               &trans  &kp LBKT  &kp RBKT       &lpar_morph        &rpar_morph   &fat_arrow  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_EQUAL     &kp N1     &kp N2      &kp N3  &kp KP_MULTIPLY   &kp KP_PLUS
+ &magic LAYER_Magic 0  &kp LCTL  &kp LALT          &kp LGUI         &kp LSHFT                &trans  &trans  &trans  &trans  &trans  &trans                &kp COMMA  &kp KP_N0  &kp KP_DOT          &kp RET    &kp KP_NUM
             >;
         };
 
