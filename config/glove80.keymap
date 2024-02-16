@@ -129,7 +129,6 @@
                 = <&out OUT_BLE>,
                   <&bt BT_SEL 3>;
         };
-        /* TODO: make fat arrows the shifted version of thin arrows */
         thin_farrow: thin_farrow {
             label = "THIN_FARROW";
             compatible = "zmk,behavior-macro";
