@@ -179,7 +179,7 @@
                &kp F1        &kp F2        &kp F3            &kp F4            &kp F5                                                                            &kp F6     &kp F7     &kp F8           &kp F9       &kp F10
                &trans         &none         &none             &none             &none         &none                                                    &none      &none      &none      &none            &none         &none
                &trans  &kp LG(LBKT)  &kp LG(RBKT)  &kp LS(LG(LBKT))  &kp LS(LG(RBKT))  &thin_barrow                                                    &none     &kp N7     &kp N8     &kp N9            &none         &none
-               &trans      &kp LEFT     &kp RIGHT          &kp DOWN            &kp UP  &thin_farrow                                                  &kp DOT     &kp N4     &kp N5     &kp N6     &kp KP_SLASH  &kp KP_MINUS
+               &trans      &kp LEFT     &kp RIGHT            &kp UP          &kp DOWN  &thin_farrow                                                  &kp DOT     &kp N4     &kp N5     &kp N6     &kp KP_SLASH  &kp KP_MINUS
                &trans      &kp END       &kp HOME         &kp PG_DN         &kp PG_UP   &fat_farrow  &trans  &trans  &trans  &trans  &trans  &trans   &kp N0     &kp N1     &kp N2     &kp N3  &kp KP_MULTIPLY   &kp KP_PLUS
                &trans      &trans          &trans            &trans            &trans                &trans  &trans  &trans  &trans  &trans  &trans              &trans     &trans     &trans           &trans    &kp KP_NUM
             >;
