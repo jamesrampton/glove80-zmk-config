@@ -189,9 +189,9 @@
             bindings = <
               &none  &none  &none  &none  &none                                                                           &none   &none   &none   &none  &none
               &none  &none  &none  &none  &none  &none                                                            &none   &none   &none   &none   &none  &none
-              &none  &kp RA(N3)  &kp BSLH  &kp EQUAL  &kp GRAVE  &none                                            &none   &none   &none   &none   &none  &none
-              &none      &kp LT    &kp GT   &kp LBRC   &kp RBRC  &none                                            &none   &none   &none   &none   &none  &none
-              &none    &kp LBKT  &kp RBKT   &kp LPAR   &kp RPAR  &none  &none  &none  &none  &none  &none  &none  &none   &none   &none   &none   &none  &none
+              &none  &kp RA(N3)  &kp BSLH  &kp EQUAL   &kp PLUS  &kp MINUS                                            &none   &none   &none   &none   &none  &none
+              &none      &kp LT    &kp GT   &kp LBRC   &kp RBRC  &kp GRAVE                                            &none   &kp QMARK   &kp EXCL   &none   &none  &none
+              &none    &kp LBKT  &kp RBKT   &kp LPAR   &kp RPAR  &kp UNDER  &none  &none  &none  &none  &none  &none  &kp SQT   &kp DQT   &kp SEMI   &kp COLON   &none  &none
               &none    &trans      &trans     &trans     &trans         &none  &none  &none  &none  &none  &none         &trans  &trans  &trans  &trans  &none
             >;
         };
