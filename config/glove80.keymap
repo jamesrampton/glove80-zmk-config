@@ -170,8 +170,8 @@
         &none      &none         &none         &none       &none     &none                                                                                  &none     &none     &none     &none      &none      &none
         &none      &kp Q         &kp Y         &kp O       &kp U     &kp X                                                                                  &kp G     &kp C     &kp M     &kp N      &kp Z   &kp HOME
         &kp TAB      &kp H         &kp I         &kp E       &kp A  &kp FSLH                                                                                  &kp D     &kp S     &kp T     &kp R      &kp B    &kp END
-        &kp LS(TAB)      &kp J  &comma_morph    &dot_morph       &kp K   &kp MINUS  &mo LAYER_Lower    &kp TAB  &none  &kp ESC     &mo LAYER_Sym  &skq LSHFT  &kp W     &kp F     &kp L     &kp P      &kp V  &kp PG_UP
-        &magic LAYER_Magic 0  &kp LSHFT      &kp LCTL      &kp LALT    &kp LGUI           &kp RET  &mo LAYER_Nav   &kp LC(C)  &kp DEL  &kp BSPC        &kp SPC         &kp LGUI  &kp LALT  &kp LCTL  &kp LSHFT  &kp PG_DN
+        &kp LS(TAB)      &kp J  &comma_morph    &dot_morph       &kp K   &kp MINUS  &mo LAYER_Lower    &kp LC(LA(LSHFT))  &none  &kp ESC     &mo LAYER_Nav  &skq LSHFT  &kp W     &kp F     &kp L     &kp P      &kp V  &kp PG_UP
+        &magic LAYER_Magic 0  &kp LSHFT      &kp LCTL      &kp LALT    &kp LGUI           &kp RET  &mo LAYER_Sym   &kp LC(C)  &kp DEL  &kp BSPC        &kp SPC         &kp LGUI  &kp LALT  &kp LCTL  &kp LSHFT  &kp PG_DN
             >;
         };
 
