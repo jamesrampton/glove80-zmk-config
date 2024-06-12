@@ -177,12 +177,12 @@
 
         layer_Lower {
             bindings = <
-               &kp F1        &kp F2        &kp F3            &kp F4            &kp F5                                                                            &kp F6     &kp F7     &kp F8           &kp F9       &kp F10
-               &trans         &none         &none             &none             &none         &none                                                    &none      &none      &none      &none            &none         &none
-               &trans  &none  &none  &none  &none  &none                                                                                               &none     &kp N7     &kp N8     &kp N9            &none         &none
-               &trans      &kp LEFT     &kp RIGHT            &kp UP          &kp DOWN  &thin_farrow                                                  &kp DOT     &kp N4     &kp N5     &kp N6     &kp KP_SLASH  &kp KP_MINUS
-               &trans      &kp END       &kp HOME         &kp PG_DN         &kp PG_UP   &fat_farrow  &trans  &trans  &trans  &trans  &trans  &trans   &kp N0     &kp N1     &kp N2     &kp N3  &kp KP_MULTIPLY   &kp KP_PLUS
-               &trans      &trans          &trans            &trans            &trans                &trans  &trans  &trans  &trans  &trans  &trans              &trans     &trans     &trans           &trans    &kp KP_NUM
+               &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                                                                      &kp F6     &kp F7     &kp F8           &kp F9       &kp F10
+               &trans   &none   &none   &none   &none   &none                                                    &none      &none      &none      &none            &none         &none
+               &trans   &none   &none   &none   &none   &none                                                    &none     &kp N7     &kp N8     &kp N9            &none         &none
+               &trans   &none   &none   &none   &none   &none                                                  &kp DOT     &kp N4     &kp N5     &kp N6     &kp KP_SLASH  &kp KP_MINUS
+               &trans   &none   &none   &none   &none   &none  &trans  &trans  &trans  &trans  &trans  &trans   &kp N0     &kp N1     &kp N2     &kp N3  &kp KP_MULTIPLY   &kp KP_PLUS
+               &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans              &trans     &trans     &trans           &trans    &kp KP_NUM
             >;
         };
 
@@ -190,10 +190,10 @@
             bindings = <
               &none  &none  &none  &none  &none                                                                           &none   &none   &none   &none  &none
               &none  &none  &none  &none  &none  &none                                                            &none   &none   &none   &none   &none  &none
-              &none  &kp RA(N3)  &kp PIPE  &kp EQUAL   &kp PLUS  &kp MINUS                                            &none   &none   &none   &none   &none  &none
+              &none  &kp RA(N3)  &kp PIPE  &kp EQUAL   &kp PLUS  &kp MINUS                                            &none   &thin_farrow   &fat_farrow   &thin_barrow   &none  &none
               &none      &kp LT    &kp GT   &kp LBRC   &kp RBRC  &kp GRAVE                                            &none   &kp QMARK   &kp EXCL   &kp BSLH   &none  &none
-              &none    &kp LBKT  &kp RBKT   &kp LPAR   &kp RPAR  &kp UNDER  &none  &none  &none  &none  &none  &skq LSHFT  &kp SQT   &kp DQT   &kp SEMI   &kp COLON   &none  &none
-              &none    &trans      &trans     &trans     &trans         &none  &none  &none  &none  &none  &none         &trans  &trans  &trans  &trans  &none
+              &none    &kp LBKT  &kp RBKT   &kp LPAR   &kp RPAR  &kp UNDER  &none  &none  &none  &none  &none  &skq LSHFT  &none  &kp SQT   &kp DQT   &kp SEMI  &kp COLON   &none
+              &none    &trans      &trans     &trans     &trans         &none  &none  &none  &kp DEL  &kp BSPC  &kp SPC         &trans  &trans  &trans  &trans  &none
             >;
         };
 
